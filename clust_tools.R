@@ -15,7 +15,7 @@
 
   calculate_dist <- function(inp_tbl, method) {
     
-    ## calculates a dissimirarity matrix
+    ## calculates a dissimilarity matrix
     
     if(method == 'smc') {
       
@@ -326,7 +326,7 @@
       
       dist_tbl <- cluster_analysis$dist_tbl
       
-      clust_assign_tbl <- luster_analysis$clust_assignment
+      clust_assign_tbl <- cluster_analysis$clust_assignment
       
     }
     
